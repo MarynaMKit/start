@@ -1,3 +1,53 @@
 .p1 {
   color: red;
 }
+
+.schedule_style {
+  border: 1px solid black;
+  background-color: blanchedalmond;
+  color: green;
+  align-content: center;
+  border-collapse: collapse;
+}
+
+.schedule_style th,
+.schedule_style td {
+  border: 1px solid black;
+  color: black;
+  align-content: center;
+}
+.weekend {
+  color: red;
+}
+
+/* 
+.schedule_style th:nth-child(6), .schedule_style th:nth-child(7), .schedule_style td:nth-child(6), .schedule_style td:nth-child(7)  {
+  background: palevioletred;
+
+  } */
+
+.schedule_style tr > :nth-child(7),
+.schedule_style tr > :nth-child(6) {
+  background: palevioletred;
+}
+
+.price_table_style  {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.price_table_style td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.price_table_style tr:nth-child(even) {
+  background: aquamarine;
+  }
+  .price_table_style tr:nth-child(odd) {
+  background: lightblue;
+  }
+
+  .price_table_style tr > :nth-child(2) {
+    background: rgba(123, 116, 124, 0.482);
+  }
